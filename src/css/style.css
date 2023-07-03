@@ -1,0 +1,89 @@
+html{
+    font-family: 'Roboto', sans-serif;
+    background: url('../img/bg-desktop.svg') center no-repeat;
+    background-color: #674bb2;
+}
+
+.header{
+    margin: 10px;
+    padding: 10px;
+}
+
+.header img{
+    width: 15%;
+    margin-left: 30px;
+    margin-bottom: 15px;
+}
+
+.container{
+    display: flex;
+}
+
+.container .ilustracao{
+    margin-left: 50px;
+    
+}
+
+.conteudo{
+    text-align: left;
+    margin-top: 80px;
+    margin-left: 50px;
+    color: #fff;
+}
+
+.conteudo .title{
+    font-size: 30px;
+    width: 340px;
+    line-height: 40px
+}
+
+.conteudo .descricao{
+    width: 440px;
+    line-height: 25px;
+}
+
+.conteudo .btn-register{
+    border-radius: 100px;
+    font-weight: bold;
+    padding: 15px;
+    width: 145px;
+    border: none;
+    cursor: pointer;
+    color: #674bb2;
+    transition: 0.2s ease-in-out;
+}
+
+.conteudo .btn-register:hover{
+    background-color: #f785e4;
+    color: #fff;
+}
+
+
+.footer{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.footer .navegation{
+    width: 200px;
+    height: 35px;
+    color: #fff;
+}
+
+.footer .navegation .redes-sociais{
+    margin: 10px;
+    padding: 8px 10px;
+    font-size: 15px;
+    border: 1px solid #fff;
+    border-radius: 100%;
+}
+
+.footer .navegation .redes-sociais i{
+    color: #fff;
+}
+
+.redes-sociais:hover{
+    background-color: #f785e4;
+}
+
+
